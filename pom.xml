@@ -46,7 +46,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>studentRegistrationTest.Driver</mainClass>
+                                    <mainClass>StudentRegistrationTest.Driver</mainClass>
                                 </manifest>
                             </archive>
                             <!-- don't append descriptorRef to jar name -->
