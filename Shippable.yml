@@ -1,2 +1,5 @@
 language: java
 jdk: openjdk7
+after_success:
+  - mvn assembly:single
+  - java -jar /root/src/github.com/fbroderick94/StudentRegistrationTest/target/StudentRegistrationTest-1.0-SNAPSHOT-jar-with-dependencies.jar
